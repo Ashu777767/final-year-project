@@ -1,0 +1,21 @@
+# All Node dependencies
+node_modules/
+**/node_modules/
+
+# Python environment and cache
+ml-service/venv/
+ml-service/.venv/
+**/__pycache__/
+*.pyc
+
+# Large model
+*.joblib
+
+# Build output
+**/dist/
+**/target/
+
+# Environment secrets
+.env
+.env.*
+!.env.example

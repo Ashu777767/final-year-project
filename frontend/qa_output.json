@@ -1,0 +1,182 @@
+{
+  "results": [
+    {
+      "feature": "Landing page load",
+      "status": "PASS"
+    },
+    {
+      "feature": "Open Digital Twin",
+      "status": "FAIL",
+      "error": "Map element #map missing"
+    },
+    {
+      "feature": "Map mode CO2",
+      "status": "FAIL",
+      "error": "Waiting for selector `button[data-mode=\"co2\"]` failed"
+    },
+    {
+      "feature": "Map mode Traffic",
+      "status": "FAIL",
+      "error": "Waiting for selector `button[data-mode=\"traffic\"]` failed"
+    },
+    {
+      "feature": "Map mode Hotspots",
+      "status": "FAIL",
+      "error": "Waiting for selector `button[data-mode=\"hotspots\"]` failed"
+    },
+    {
+      "feature": "Map mode Capture",
+      "status": "FAIL",
+      "error": "Waiting for selector `button[data-mode=\"capture\"]` failed"
+    },
+    {
+      "feature": "Map click interaction",
+      "status": "FAIL",
+      "error": "No marker found"
+    },
+    {
+      "feature": "Search Pune",
+      "status": "FAIL",
+      "error": "Search input not found"
+    },
+    {
+      "feature": "Search Mumbai",
+      "status": "FAIL",
+      "error": "Search input not found"
+    },
+    {
+      "feature": "Search Delhi",
+      "status": "FAIL",
+      "error": "Search input not found"
+    },
+    {
+      "feature": "Search Bengaluru",
+      "status": "FAIL",
+      "error": "Search input not found"
+    },
+    {
+      "feature": "Open Simulator",
+      "status": "FAIL",
+      "error": "Simulator form not found"
+    },
+    {
+      "feature": "Simulator first run (Pune)",
+      "status": "FAIL",
+      "error": "No element found for selector: select[name=\"city\"]"
+    },
+    {
+      "feature": "Simulator second run (Pune, changed intensity)",
+      "status": "FAIL",
+      "error": "No element found for selector: button[type=\"submit\"]"
+    },
+    {
+      "feature": "Simulator UI checks",
+      "status": "FAIL",
+      "error": "Currency ₹ not found"
+    },
+    {
+      "feature": "Analytics page",
+      "status": "FAIL",
+      "error": "No element found for selector: select[name=\"city\"]"
+    },
+    {
+      "feature": "Hotspots page",
+      "status": "FAIL",
+      "error": "No hotspot rows"
+    },
+    {
+      "feature": "Recommendations page",
+      "status": "FAIL",
+      "error": "No recommendations rendered"
+    },
+    {
+      "feature": "Scenarios page",
+      "status": "FAIL",
+      "error": "No scenario cards"
+    },
+    {
+      "feature": "Refresh Digital Twin",
+      "status": "FAIL",
+      "error": "Map missing after refresh"
+    },
+    {
+      "feature": "Refresh Simulator",
+      "status": "FAIL",
+      "error": "Simulator form missing after refresh"
+    }
+  ],
+  "errors": [
+    "RequestFailed: http://localhost:8080/api/emissions/areas?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/emissions/trends?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/emissions/sources?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/emissions/areas?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/analytics/traffic?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/emissions/areas?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/emissions/areas?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/emissions/trends?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/emissions/sources?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/emissions/areas?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/analytics/traffic?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/emissions/areas?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/emissions/trends?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/emissions/sources?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/emissions/areas?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/analytics/traffic?city= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/emissions/trends?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/emissions/sources?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/emissions/areas?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/analytics/traffic?city= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/hotspots?city=&lat=&lng=&dataSource= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/hotspots?city=&lat=&lng=&dataSource= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/hotspots?city=&lat=&lng=&dataSource= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/hotspots?city=&lat=&lng=&dataSource= - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/hotspots?city=&lat=&lng=&dataSource= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/hotspots?city=&lat=&lng=&dataSource= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/hotspots?city=&lat=&lng=&dataSource= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/hotspots?city=&lat=&lng=&dataSource= - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/recommendations - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/recommendations - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/recommendations - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/recommendations - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/scenarios - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/scenarios - net::ERR_CONNECTION_REFUSED",
+    "RequestFailed: http://localhost:8080/api/scenarios - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch",
+    "RequestFailed: http://localhost:8080/api/scenarios - net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "ConsoleError: TypeError: Failed to fetch"
+  ]
+}
