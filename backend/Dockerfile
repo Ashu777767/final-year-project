@@ -11,4 +11,4 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 
 EXPOSE 8080
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-Xms64m", "-Xmx256m", "-XX:MaxMetaspaceSize=128m", "-jar", "app.jar"]
