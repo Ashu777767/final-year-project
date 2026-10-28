@@ -27,7 +27,7 @@
  *   POST /api/prediction        → getPrediction(features)
  */
 
-const DEFAULT_BACKEND_ORIGIN = 'http://localhost:8085';
+const DEFAULT_BACKEND_ORIGIN = 'https://co2-digital-twin-backend.onrender.com';
 
 const API_BASE_URL = import.meta.env.DEV
   ? ''
